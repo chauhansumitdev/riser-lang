@@ -1,0 +1,6 @@
+This docs folder contains the file desc of most of the .java files in this project.
+The code is also well commented for any alongside desc.
+
+The corresponding desc file is named as follows:
+
+Riser.java -> riser.txt
