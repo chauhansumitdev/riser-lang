@@ -8,7 +8,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.Scanner;
 
 
 public class Riser {
@@ -38,7 +37,7 @@ public class Riser {
             System.exit(65);
             has_error = false;
         }
-        // run(new String(butes, Charset.defaultCharset()));
+        run(new String(bytes, Charset.defaultCharset()));
     }
 
 
@@ -59,16 +58,17 @@ public class Riser {
 
     private static void run(String source){
         Scanner scanner = new Scanner(source);
-        // List<Token> tokens = scanner.scan_tokens();
 
-        // for(Token token : tokens){
-        //     System.out.println(token);
-        // }
+        List<Token> tokens = scanner.scan_token();
+
+        for(Token token : tokens){
+            System.out.println(token);
+        }
     }
 
 
     static void error(int line, String message){
-        // report(line, " ", message);
+        report(line, " ", message);
     }
 
     private static void report(int line, String where, String message){
