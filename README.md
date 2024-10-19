@@ -100,4 +100,9 @@ if (result > 10) {
     print("Result is 10 or less");
 }
 ```
+- Save the file **name.rr**
+- Run **make** if the **.class** files are not present (one time).
+- Run **java Riser name.rr**
+
+
 > Note: This implementation does not purely follow standard compiler/interpreter design principles and the theoretical aspects of formal languages and automata. It's just a "Let's-GO!" type implementation. Hope it helps.
