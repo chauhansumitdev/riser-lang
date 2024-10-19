@@ -20,7 +20,7 @@
   - Variables are declared using the `let` keyword. Example:
     ```plaintext
     let x = 10;
-    let name = "EduLang";
+    let name = "India";
     ```
 
 - **Operators**:
