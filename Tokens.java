@@ -1,0 +1,68 @@
+enum Tokens {
+    // DATA TYPES -- DYNAMICALLY DETERMINED -- USE LET INSTEAD
+    INT,
+    FLOAT,
+    STRING,
+    BOOL,
+
+    // ASSIGNMENT
+    EQUAL,
+
+    // WHITESPACE
+    SPACE,
+
+    // SINGLE TOKENS
+
+    BRACE_OPEN,
+    BRACE_CLOSE,
+    BLOCK_OPEN,
+    BLOCK_CLOSE,
+
+    APOSTROPHE,
+
+    COMMA,
+
+    // IDENTIFIER
+    IDENTIFIER,
+
+    // VARIABLES
+    LET,
+
+    // OPERATORS
+    PLUS,
+    MINUS,
+    MULIPLY,
+    DIVIDE,
+    MODULE,
+
+    DOUBLE_EQUAL,
+    NOT_EQUAL,
+    LESS_THAN,
+    GREATER_THAN,
+    GREATER_THAN_EQUAL,
+    LESS_THAN_EQUAL,
+
+
+    AND_AND,
+    OR_OR,
+    NOT,
+
+
+    // CONTROL FLOW
+
+    IF,
+    ELSE,
+    ELSE_IF,
+
+    // ITERATION
+
+    WHILE,
+    FOR,
+
+    // FUNCTION 
+    FUNC ,
+
+
+    // COMMENT
+    DOUBLE_SLASH
+}
