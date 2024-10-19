@@ -1,4 +1,7 @@
 <!-- ![riser_lang](https://github.com/user-attachments/assets/85e9b1b6-c763-4160-a530-299843639079) -->
+![status: 200](https://img.shields.io/badge/status-active-green)
+![status: 200](https://img.shields.io/badge/environment-windows-blue)
+
 ![2](https://github.com/user-attachments/assets/c44d0653-44e4-4e2f-ae97-76e3a21bd835)
 
 ## 🟠 **Language Overview**
@@ -97,4 +100,4 @@ if (result > 10) {
     print("Result is 10 or less");
 }
 ```
-> Note : This implementation does not follow standard compiler/interpreter design principles and the theoritical aspects of formal languages and automata. Its just "Lets-GO!" type implementation. Hope it helps.
+> Note: This implementation does not purely follow standard compiler/interpreter design principles and the theoretical aspects of formal languages and automata. It's just a "Let's-GO!" type implementation. Hope it helps.
