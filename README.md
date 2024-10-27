@@ -105,4 +105,4 @@ if (result > 10) {
 - Run **java Riser name.rr**
 
 
-> Note: This implementation does not purely follow standard compiler/interpreter design principles and the theoretical aspects of formal languages and automata. It's just a "Let's-GO!" type implementation. Hope it helps.
+> Note: This implementation does not purely follow standard compiler/interpreter design principles and the theoretical aspects of formal languages and automata.
